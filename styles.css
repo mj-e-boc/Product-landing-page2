@@ -1,0 +1,181 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+}
+
+#header {
+    display: flex;
+    max-width: 100%;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px, 20px;
+    position: fixed;
+    left: 5%;
+    right: 5%;
+    top: 0;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    width: 100%;
+    border-radius: 50%;
+    width: 70px;
+}
+
+#nav-bar {
+    display: flex;
+    flex-grow: 1;
+    min-height: 80px;
+    align-items: center;
+    display: inline;
+}
+
+#nav-bar ul {
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    gap: 50px;
+    margin-left: 800px;
+}
+
+#nav-bar ul li a {
+    color: #000000;
+    font-size: 20px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.form {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 420px;
+    width: 100%;
+}
+
+.form form input {
+    display: block;
+}
+
+.form form input:first-child {
+    margin: 20px;
+    max-width: 300px;
+    background-color: #ffffff;
+    padding: 5px;
+    width: 100%;
+}
+
+.form form input:last-child {
+    margin-bottom: 20px;
+    background-color: #f1c405;
+    padding: 4px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+#features {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#features .card {
+    display: flex;
+    align-items: center;
+}
+
+#features .card .icon {
+    max-width: 100px;
+    width: 100%;
+    color: #ff8c00;
+    display: none;
+}
+
+#features .card .content {
+    flex-grow: 1;
+}
+
+#how-it-works {
+    max-width: 100%;
+    margin: 50px auto;
+}
+
+#pricing {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#pricing .card {
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border: 1px solid #000;
+    max-width: 350px;
+    width: 100%;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#pricing .card h2 {
+    background-color: #dddddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+#pricing .card strong {
+    font-size: 24px;
+}
+
+#pricing .card button {
+    border: 0;
+    margin: 15px 0;
+    background-color: yellow;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+footer {
+    padding: 2px;
+    margin-top: 12px;
+    background-color: grey;
+    text-align: center;
+}
+
+footer>ul {
+    padding: 0%;
+}
+
+footer>ul li {
+    display: inline;
+}
+
+footer>ul li:not(last-child) {
+    margin-right: 10px;
+}
